@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link id="styles" rel="stylesheet" href="/src/CSS/style.css" />
+    <link id="switchModes" rel="stylesheet" href="/src/CSS/Dark.css" />
     <title>Castaway</title>
   </head>
   <body>
@@ -15,16 +16,31 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">Episodes</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
             <li>
-              <button><a href="#" id="settings">Settings</a></button>
+              <button><a href="#" id="settings">Contact</a></button>
             </li>
             <div class="foll-menu" id="foll-menu">
-              <li><a href="#">FFF</a></li>
-              <li><a href="#">FFF</a></li>
-              <li><a href="#">FFF</a></li>
-              <li><a href="#">FFF</a></li>
+              <li><button>GitHub</button></li>
+              <li><button>Telegram</button></li>
+              <li><button>Instagram</button></li>
             </div>
+            <li>
+              <div class="theme">
+                <button id="black">
+                  <img
+                    src="/src/img/Theme icon/dark_mode_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+                    alt="Dark"
+                  />
+                </button>
+
+                <button id="light">
+                  <img
+                    src="/src/img/Theme icon/light_mode_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+                    alt="Light"
+                  />
+                </button>
+              </div>
+            </li>
           </ul>
         </nav>
       </div>
@@ -32,7 +48,7 @@
     </div>
     <div class="workstudios">
       <img
-        src="/img/f83ecf402374aaf9e8c924157774dbab.jpg"
+        src="/src/img/image/f83ecf402374aaf9e8c924157774dbab.jpg"
         alt="photo"
         width="473px"
         height="573px"
@@ -42,15 +58,15 @@
         <h1>Take your podcast to the next <span>level</span></h1>
         <p class="listen">Listen on</p>
         <div class="listening">
-          <img src="/img/spotify.svg" alt="spotify" class="spotify" />
+          <img src="/src/img/icon/spotify.svg" alt="spotify" class="spotify" />
           <img
-            src="/img/spotify.svg"
+            src="/src/img/icon/spotify.svg"
             alt="opencollective"
             class="opencollective"
           />
 
           <img
-            src="/img/spotify.svg"
+            src="/src/img/icon/spotify.svg"
             alt="music-note-beamed"
             class="music-note-beamed"
           />
@@ -67,7 +83,7 @@
       <div class="device">
         <div class="one">
           <img
-            src="/img/529b6efc25efc3e321d6655835061406.jpg"
+            src="/src/img/image/529b6efc25efc3e321d6655835061406.jpg"
             alt=""
             width="373px"
             height="473px"
@@ -89,7 +105,7 @@
     </div>
     <div class="about">
       <img
-        src="/img/35afec70f12c2a2f70d6f22a18c66408.jpg"
+        src="/src/img/image/35afec70f12c2a2f70d6f22a18c66408.jpg"
         alt=""
         width="373px"
         height="473px"
@@ -113,7 +129,7 @@
         for updates
       </h1>
       <img
-        src="/img/photo_2025-03-07_22-18-55.jpg"
+        src="/src/img/image/photo_2025-03-07_22-18-55.jpg"
         alt=""
         width="373px"
         height="503px"
@@ -141,5 +157,6 @@
       </div>
     </div>
   </body>
-  <script src="main.js"></script>
+  <script src="src/JavaScript/main.js"></script>
+  <script src="/src/JavaScript/theme.js"></script>
 </html>
