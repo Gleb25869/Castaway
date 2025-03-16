@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  background-color: #191919;
+  color: #ffffff;
+  cursor: url(/img/fiber_manual_record_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg)
+      2 2,
+    default;
+}
+
+.logo {
+  font-size: 33px;
+  margin-top: 17px;
+  margin-left: 50px;
+  font-weight: 600;
+  color: white;
+}
+
+.logo span {
+  color: #118da8;
+}
+
+.menu-list {
+  margin-right: 90px;
+  margin-top: -55px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.menu-list a {
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.menu-list a:hover {
+  color: #118da8;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.menu button {
+  padding: 10px;
+  border: none;
+  font-size: 20px;
+}
+
+.theme {
+  position: absolute;
+  margin-top: -25px;
+}
+
+.theme img {
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.foll-menu {
+  position: absolute;
+  opacity: 0;
+  width: 90%;
+  height: 100px;
+  margin-left: 80px;
+  background-color: #191919;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+}
+
+.foll-menu button {
+  border: none;
+  margin-top: -18px;
+  border-radius: 6px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: #191919;
+}
+
+.foll-menu li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 240px;
+  margin-top: 25px;
+}
+
+.close {
+  position: absolute;
+  opacity: 0;
+  margin-left: 1410px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.workstudios img {
+  margin-top: 119px;
+  margin-left: 150px;
+  border-radius: 20px;
+}
+
+.programming {
+  text-align: right;
+  margin-top: -400px;
+  margin-right: 400px;
+}
+
+.programming h1 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.programming span {
+  font-weight: 700;
+}
+
+.listen {
+  color: #ffffff;
+  text-align: left;
+  margin-left: 670px;
+  margin-top: 15px;
+}
+
+.listening {
+  display: flex;
+  margin-top: -100px;
+  margin-left: 520px;
+}
+
+.spotify {
+  background-color: #1ed760;
+  width: 30px;
+  border-radius: 20px;
+  margin-bottom: 150px;
+  margin-right: -130px;
+}
+
+.opencollective {
+  background-color: #f43e37;
+  width: 30px;
+  border-radius: 20px;
+  margin-bottom: 150px;
+  margin-right: -128px;
+}
+
+.music-note-beamed {
+  background-color: #f452ff;
+  width: 30px;
+  border-radius: 20px;
+  margin-bottom: 150px;
+  margin-right: 320px;
+}
+
+.my-device {
+  margin-left: 150px;
+}
+
+.logo2 {
+  margin-top: 300px;
+  margin-left: 50px;
+}
+
+.Viewallepisodes {
+  margin-left: 1300px;
+  background-color: #118da8;
+  margin-top: -43px;
+  padding: 15px;
+  display: flex;
+  border: none;
+  border-radius: 6px;
+}
+
+.Viewallepisodes a {
+  color: #ffffff;
+  background-color: #118da8;
+  text-decoration: none;
+}
+
+.one {
+  margin-top: 50px;
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 50px;
+  width: 70%;
+}
+
+.one img {
+  border-radius: 20px;
+  margin: 40px;
+  margin-left: 50px;
+}
+
+.one h1 {
+  margin-top: -450px;
+  margin-left: 500px;
+}
+
+.one h4 {
+  margin-left: 500px;
+  margin-top: -120px;
+  color: #118da8;
+}
+
+.opps {
+  margin-left: 500px;
+  margin-top: 100px;
+  color: grey;
+}
+
+.one button {
+  margin-left: 500px;
+  margin-top: 100px;
+  background-color: #118da8;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+}
+
+.one button a {
+  color: #ffffff;
+  background-color: #118da8;
+  text-decoration: none;
+}
+
+.about {
+  margin-top: 249px;
+}
+
+.about img {
+  margin-left: 1050px;
+  margin-top: 120px;
+  border-radius: 6px;
+}
+
+.about h1 {
+  margin-top: -400px;
+  margin-left: 150px;
+  font-weight: 400;
+  font-size: 65px;
+}
+
+.about p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  color: grey;
+  margin-left: 150px;
+}
+
+.about p:last-child {
+  color: #118da8;
+  margin-top: -340px;
+  margin-left: 150px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.about button {
+  background-color: #118da8;
+  margin-left: 150px;
+  margin-top: 25px;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+}
+
+.apdates {
+  margin-top: 850px;
+}
+
+.apdates h1 {
+  margin-left: 150px;
+  font-size: 72px;
+  line-height: 79px;
+}
+
+.apdates p {
+  margin-top: -450px;
+  margin-left: 150px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #118da8;
+}
+
+.apdates img {
+  border-radius: 6px;
+  margin-left: 1050px;
+  margin-top: -250px;
+}
+
+.apdates button {
+  background-color: #118da8;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 250px;
+  margin-left: 150px;
+}
+
+.apdates p:last-child {
+  color: gray;
+  margin-top: -120px;
+}
+
+.footer {
+  margin-top: 450px;
+  margin-left: 150px;
+  display: inline-block;
+  padding-bottom: 100px;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.footer-logo {
+  font-weight: 600;
+  color: white;
+}
+
+.footer-logo span {
+  color: #118da8;
+}
+
+.vertical-menu {
+  margin-left: 1000px;
+  margin-top: -32px;
+}
