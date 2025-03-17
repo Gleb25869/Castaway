@@ -1,8 +1,8 @@
-const settings = document.getElementById("settings");
+const Settings = document.getElementById("settings");
 const FollMenu = document.getElementById("foll-menu");
 const Close = document.getElementById("close");
 
-settings.addEventListener("click", () => {
+Settings.addEventListener("click", () => {
   FollMenu.style.opacity = 1;
   Close.style.opacity = 1;
   Close.style.transition = "1s";
